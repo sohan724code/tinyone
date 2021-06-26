@@ -1,0 +1,214 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* font-family: 'PT Sans', sans-serif; */
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Section */
+.tinyone-header {
+  background: #fbdb00;
+  padding-bottom: 2%;
+}
+
+.header-nav {
+  background: #fbdb00;
+  padding: 2% 5%;
+}
+
+.header-nav .mid-sec {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav .third-sec {
+  text-align: right;
+}
+
+.header-nav i {
+  margin-right: 4%;
+  color: #000;
+  font-size: 22px;
+}
+
+.header-nav .mid-sec h5 {
+  margin-left: 2%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Header Carosel Section */
+.header-carousel-sec .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.carosel-sec {
+  text-align: center;
+  padding: 6% 25% 8%;
+}
+
+.text-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
+
+.text-sub-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #313841;
+}
+
+.carosel-icon-sec {
+  display: flex;
+  justify-content: center;
+}
+
+.carosel-icon-sec i {
+  color: #000;
+  margin: 3%;
+  font-size: 32px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Feature Section */
+.feature-section {
+  padding: 4% 0 5%;
+  background: #fff;
+}
+
+.feature-section .feature-head {
+  padding: 2% 8% 4%;
+}
+
+.feature-section .feature-head h2 {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.feature-section .feature-head p {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #313841;
+}
+
+.feature-section .mid-sec {
+  background-image: url("images/ipadimg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+.feature-section .mid-sec h5 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 10px;
+}
+
+.feature-section .feature-content .feature-item {
+  padding: 15% 4% 30%;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 7% 15%;
+  background: #000;
+  text-align: center;
+}
+
+.contact-section h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fcdb00;
+}
+
+.contact-section p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #999;
+  padding: 0 7%;
+}
+
+.contact-section form {
+  padding: 0;
+}
+
+.contact-section input {
+  width: 65%;
+  height: 40px;
+  border: 0 solid #fff;
+  border-radius: 2%;
+  padding-left: 15px;
+}
+
+.contact-section button {
+  width: 15%;
+  height: 40px;
+  border: 0 solid #fff;
+  border-radius: 5%;
+  margin-left: 15px;
+  text-transform: capitalize;
+  background: #fcdb00;
+}
+
+/* Footer Section  */
+.footer-section {
+  background: #000;
+  color: #999;
+  padding: 0 8% 10%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+.footer-section .row>* {
+  padding-right: 7%;
+}
+
+.footer-item a {
+  color: #999;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
